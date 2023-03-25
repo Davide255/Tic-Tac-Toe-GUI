@@ -32,3 +32,5 @@ Now we have to replace the default function with our function:
 gui.computer_move = computer
 ```
 We're ready to call the <code>gui.run()</code> method and to play with our own game logic!
+
+[_Here the full code_](https://github.com/Davide255/Tic-Tac-Toe-GUI/blob/main/game_logic.py)
