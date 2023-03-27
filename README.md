@@ -25,7 +25,8 @@ def computer(*args):
     # else randomically choose a place
     if gui.get_cell_sign(4) == '':
         return 4
-    else: choice(gui.free_places)
+    else: 
+        return choice(gui.free_places)
 ```
 Now we have to replace the default function with our function:
 ``` python
